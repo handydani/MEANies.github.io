@@ -13,18 +13,20 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: An UF Office-Hour Checking App
+title: UF Office-Hour Checking App
+author: Presented by MEANies
 description: >- # this means to ignore newlines until "baseurl:"
   This web app aims to help UF students to get their TAs' or professors' office hour quickly and conveniently. 
   You can also get other useful informations about the professors or any faculty members who already
   registered here.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  MEANies
 
 # Build settings
 markdown: kramdown
+layouts_dir: _layouts
+includes_dir: _includes
 theme: minima
 plugins:
   - jekyll-feed
